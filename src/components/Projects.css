@@ -1,0 +1,105 @@
+/* Projects.css */
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 10rem;
+  font-weight: 900;
+  color: var(--accent);
+  margin-bottom: 32px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px 24px;
+}
+
+.project-card {
+  background: var(--card-bg);
+  color: var(--card-text);
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 32px 18px 24px 18px;
+  flex: 1 1 340px;
+  min-width: 260px;
+  max-width: 340px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+/* Projects Section - Clean List Layout */
+.projects {
+  padding: 4rem 10% 2rem 10%;
+ background: transparent;
+  min-height: 60vh;
+}
+
+.projects-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.project-list {
+  display: block;
+}
+
+.project-list-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.project-list-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #ff4d4f;
+}
+
+.project-skills {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-skills span {
+  margin-left: 8px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.project-tech {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-tech span {
+  margin-left: 8px;
+  background:#1e1d20;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.95rem;
+  color: #0077b6;
+}
+
+.project-desc {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  color: #f3ecec;
+  font-size: 1rem;
+}

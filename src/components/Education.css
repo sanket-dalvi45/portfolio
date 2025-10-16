@@ -1,0 +1,24 @@
+.education {
+  display: flex;
+  justify-content: center;
+  padding-right: 60px;
+  background-color: rgba(255, 255, 255, 0.85); 
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 15px;
+
+}
+
+.edu-item h3 {
+  margin-bottom: 5px;
+  color: #ff6f61;
+}
+
+.edu-item p {
+  margin: 2px 0;
+  color: #fff;
+}

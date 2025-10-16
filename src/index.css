@@ -1,0 +1,135 @@
+/* index.css */
+
+/* Base styles */
+ /* .All{
+  background-color: black;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-portfolio-memphis-playful-abstract-pink-image_593412.jpg") no-repeat center center fixed;
+
+}  */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+
+  /* 🔥 Single fixed background for the entire page */
+  background: url('./assets/banner-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed; /* ensures it stays while scrolling */
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #213547;
+}
+
+:root {
+  /* --bg-main: linear-gradient(135deg, #dfb0d4); */
+  /* --bg-gradient: linear-gradient(135deg, #1e1d20, #e3e8ff); */
+  --text-main: #213547;
+  --card-bg: linear-gradient(135deg, #611f4a, #ced3e7);
+  --card-text: #213547;
+  --accent: #646cff;
+  --button-bg: #f9f9f9;
+  --button-text: #213547;
+  --link: #646cff;
+  --link-hover: #747bff;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* background: var(--bg-main); */
+  color-scheme: light dark;
+  color: var(--text-main);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="dark"] {
+  /* --bg-main: linear-gradient(135deg, #181824, #23243a);
+  --bg-gradient: linear-gradient(135deg, #181824, #23243a); */
+  --text-main: #fff;
+  --card-bg: linear-gradient(135deg, #181824, #23243a);
+  --card-text: #fff;
+  --accent: #a75b81;
+  --button-bg: #23243a;
+  --button-text: #fff;
+  --link: #a75b81;
+  --link-hover: #ff6f61;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Global layout */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.2s ease-in-out;
+}
+button:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* removed prefers-color-scheme media query, now handled by theme toggle */
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  padding: 0 16px;
+}
+
+@media (max-width: 900px) {
+  .two-column {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 8px;
+    margin-bottom: 32px;
+  }
+}
+
+
+

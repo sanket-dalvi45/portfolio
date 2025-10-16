@@ -1,0 +1,76 @@
+/* Global background */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/images/banner-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+body.dark {
+  background: linear-gradient(120deg, #232946 0%, #121629 100%);
+  color: #eaeaea;
+}
+
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+  transition: background 0.3s;
+}
+
+/* Section headings */
+section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0a3557;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+body.dark section h2 {
+  color: #eaeaea;
+}
+
+/* Logos */
+.logo {
+  height: 6em;
+  padding: 0 2rem;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #a75b81aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo spin */
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Cards */
+.card {
+  padding: 2em;
+}
+
+/* Links */
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,165 @@
+/* .navbar {
+  padding: 20px 0;
+  transition: all 0.4s ease;
+  background-color: transparent;
+}
+
+.navbar-link {
+  color: #ffffff;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+.navbar.scrolled {
+  background-color: #0d0d0d;
+  padding: 10px 0;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+
+.navbar-link {
+  color: #fff;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #ff4d5a;
+}
+
+ .navbar-link.active {
+  color: #ff4d5a;
+  font-weight: bold;
+} 
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon a {
+  margin: 0 5px;
+}
+
+.vvd {
+  background-color: #ff4d5a;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  margin-left: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+   transition: all 0.3s;
+}
+
+.vvd:hover {
+  background-color: #ff1f3d;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .navbar-text {
+    justify-content: center;
+    margin-top: 10px;
+  }
+} */
+ /* Navbar brand logo */
+.navbar-brand img {
+  width: 120px; /* keep your main logo bigger */
+  height: auto;
+}
+
+/* Social icons */
+.social-icon a img {
+  width: 20px; /* smaller and uniform */
+  height: 20px;
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.social-icon a:hover img {
+  transform: scale(1.2); /* optional hover zoom */
+}
+
+.navbar-link.active {
+  color: #ffffff !important; /* always white */
+}
+
+.navbar-link:hover {
+  color: #ff4d5a; /* hover highlight */
+}
+
+.navbar-link:active {
+  color: #ff4d5a; /* click highlight */
+}
+
+.navbar {
+  padding: 20px 0;
+  transition: all 0.4s ease;
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #0d0d0d;
+  padding: 10px 0;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+/* Navbar links */
+.navbar-link {
+  color: #ffffff; /* default white */
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff4d5a; /* highlight on hover */
+}
+
+.navbar-link:active {
+  color: #ff4d5a; /* highlight while clicking */
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon a {
+  margin: 0 5px;
+}
+
+.vvd {
+  background-color: #ff4d5a;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  margin-left: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.vvd:hover {
+  background-color: #ff1f3d;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .navbar-text {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

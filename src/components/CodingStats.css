@@ -1,0 +1,69 @@
+.coding-stats-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  /* background: black; */
+  background: transparent;
+  color: #fff;
+}
+
+.coding-stats-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.coding-stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 16rem;
+  flex-wrap: wrap;
+}
+
+/* Circular Card */
+.coding-stat-card-circle {
+  background: linear-gradient(145deg, #fff, #e0f0ff);
+  width: 280px;
+  height: 280px;
+  border-radius: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #213547;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.coding-stat-card-circle:hover {
+  transform: translateY(-10px) scale(1.08);
+  box-shadow: 0 25px 60px rgb(150, 29, 29);
+}
+
+.coding-card-logo img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.1rem;
+  transition: transform 0.3s ease;
+}
+
+.coding-stat-card-circle:hover .coding-card-logo img {
+  transform: rotate(5deg) scale(1); /* subtle rotation on hover */
+}
+
+.coding-stat-card-circle h3 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+}
+
+.coding-count {
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: #0077b6;
+}
