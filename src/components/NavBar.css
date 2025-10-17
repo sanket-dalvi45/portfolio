@@ -70,8 +70,10 @@
 } */
  /* Navbar brand logo */
 .navbar-brand img {
-  width: 120px; /* keep your main logo bigger */
-  height: auto;
+ width: 50px;       /* standard size */
+  height: 50px;      /* maintain square */
+  object-fit: contain; 
+  border-radius: 100%;
 }
 
 /* Social icons */
