@@ -5,7 +5,7 @@ const stats = [
   {
     platform: "LeetCode",
     logo: "https://tse4.mm.bing.net/th/id/OIP.Krkb-t8Wx1wlzRv9AfXj6QAAAA?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
-    solved: 55,
+    solved: 75,
     link: "https://leetcode.com/yourusername/"
   },
   {
